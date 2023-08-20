@@ -6,7 +6,7 @@ import React from "react";
 
 const NavBar = () => {
 	return (
-		<div className='flex justify-between p-3 px-10 border-b-[1px] shadow-sm'>
+		<div className='flex justify-between items-center p-3 px-10 border-b-[1px] shadow-sm'>
 			<div className='flex gap-10 items-center'>
 				<Image src='/rideease-icon.png' alt='logo' width={300} height={50} unoptimized />
 				<div className=' hidden md:flex gap-6 mt-2'>

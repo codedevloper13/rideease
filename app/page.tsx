@@ -1,13 +1,17 @@
 /** @format */
 
-
+import Booking from "@/components/Booking/Booking";
 import Image from "next/image";
 
 export default function Home() {
-  return (
+	return (
 		<div>
-			
-			hello World
+			<div className='grid grid-cols-1 md:grid-cols-3'>
+				<div className=''>
+					<Booking />
+				</div>
+				<div className='col-span-2 '>Map</div>
+			</div>
 		</div>
-  );
+	);
 }
